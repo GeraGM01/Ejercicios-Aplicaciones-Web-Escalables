@@ -1,0 +1,5 @@
+<p>Contador: {{ contador }}</p>
+<button (click)="decrementar()">-1</button>
+<button (click)="incrementar()">+1</button>
+
+<p *ngIf="contador <= 110">El valor de contador es menor o igual que 110</p>
